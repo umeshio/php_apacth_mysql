@@ -1,0 +1,26 @@
+# Docker関連の一時ファイル
+**/*.log
+**/*.tmp
+**/*.swp
+.dockerignore
+
+# MySQLデータベースのデータ
+mysql/
+
+# phpMyAdminの設定
+phpmyadmin/
+
+# HTMLの出力
+html/
+
+# 環境変数ファイル
+.env
+
+# Composerのキャッシュや依存関係
+vendor/
+composer.lock
+
+# 生成物
+html/cache/
+html/logs/
+html/tmp/
